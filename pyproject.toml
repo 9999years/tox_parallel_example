@@ -1,0 +1,9 @@
+[tool.poetry]
+authors = ["Rebecca Turner <rturner@starry.com>"]
+name = "tox-parallel-example"
+description = "tox --parallel output is unbuffered and unmanaged"
+version = "1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
